@@ -1,13 +1,11 @@
 package main
 
-import "github.com/99designs/gqlgen/graphql"
-
-// import (
-// 	"github.com/99designs/gqlgen/graphql"
-// 	"github.com/VarunRajVR/Golang-Inventory-Management/graphql/account"
-// 	"github.com/VarunRajVR/Golang-Inventory-Management/graphql/catalog"
-// 	"github.com/VarunRajVR/Golang-Inventory-Management/graphql/order"
-// )
+import (
+	"github.com/99designs/gqlgen/graphql"
+	"github.com/VarunRajVR/Golang-Inventory-Management/account"
+	"github.com/VarunRajVR/Golang-Inventory-Management/catalog"
+	"github.com/VarunRajVR/Golang-Inventory-Management/order"
+)
 
 type Server struct {
 	accountClient *account.Client
